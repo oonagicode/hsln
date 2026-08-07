@@ -1,1 +1,161 @@
-Here is index
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ハイシグ - high signal low noise -</title>
+    <style>
+        :root {
+            --bg-color: #0f1117;
+            --card-bg: #1a1d24;
+            --text-color: #e2e8f0;
+            --text-muted: #94a3b8;
+            --accent-color: #5865f2; /* Discord Purple */
+            --accent-hover: #4752c4;
+            --border-color: #2e3440;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.7;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 720px;
+            width: 100%;
+            margin-top: 40px;
+            margin-bottom: 60px;
+        }
+
+        header {
+            margin-bottom: 40px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin: 0 0 10px 0;
+            letter-spacing: -0.02em;
+        }
+
+        .status-badge {
+            display: inline-block;
+            background-color: #2d3748;
+            color: #a0aec0;
+            font-size: 0.85rem;
+            padding: 2px 10px;
+            border-radius: 12px;
+            margin-bottom: 10px;
+        }
+
+        section {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 24px;
+            margin-bottom: 24px;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            margin-top: 0;
+            margin-bottom: 16px;
+            color: #fff;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+        }
+
+        p {
+            margin: 0 0 1em 0;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+
+        ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .cta-section {
+            text-align: center;
+            background: transparent;
+            border: none;
+            padding: 20px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: #fff;
+            text-decoration: none;
+            padding: 12px 28px;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background-color 0.2s ease;
+        }
+
+        .btn:hover {
+            background-color: var(--accent-hover);
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="status-badge">2026/08/08 現在：開発中</div>
+        <h1>ハイシグ</h1>
+        <p style="color: var(--text-muted); margin: 0;">- high signal low noise -</p>
+    </header>
+
+    <section>
+        <h2>概要と今後の予定</h2>
+        <p>将来的には、音楽やクリエイティブ関連の話題を中心とした情報交換・交流の場として活用する予定です。</p>
+        <p>当サーバーは立ち上げたばかりで開発中のため、現時点では企画等のコンテンツは少なめですが、現在の進捗状況やロードマップは随時更新していきます。</p>
+    </section>
+
+    <section>
+        <h2>サーバーの特徴と独自システムについて</h2>
+        <p>本サーバーでは、Discord従来の使いづらさやごちゃつきを解消し、より快適に利用できるようにするため、<strong>管理者が独自にデザイン・構築した専用画面（UI）</strong>を導入していく方針（暫定）です。</p>
+        <p>そのため、一般的なDiscordサーバーとは少し違った見た目や操作感（ルック＆フィール）になる部分があります。ただし、管理者や参加者の権限範囲、役割（ロール）といった根本的な機能やセキュリティ面については、通常のDiscordの仕組みと一切変わりませんのでご安心ください。</p>
+        <p>また、誰が参加しているのか分かりにくく、参加者のプライバシーを最大限守る構造にしています。その分、基本的な判断や決定はすべて自己責任にてお願いいたします。</p>
+    </section>
+
+    <section>
+        <h2>参加方法・お問い合わせ</h2>
+        <p>お忍びでのご参加や、まずは雰囲気を覗いてみたいという方も大歓迎です。</p>
+        <p>ご質問・ご要望・参加申請などは、お気軽に管理者（おおなぎ）までご連絡ください。</p>
+    </section>
+
+    <div class="cta-section">
+        <!-- Twitter/XやDiscord直接DMへのリンクに置き換えてください -->
+        <a href="https://twitter.com/" class="btn" target="_blank" rel="noopener">管理者（おおなぎ）へ参加申請・連絡する</a>
+    </div>
+
+    <footer>
+        &copy; ハイシグ - All rights reserved.
+    </footer>
+</div>
+
+</body>
+</html>
